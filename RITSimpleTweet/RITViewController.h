@@ -10,4 +10,15 @@
 
 @interface RITViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *button1Label;
+@property (weak, nonatomic) IBOutlet UILabel *button2Label;
+@property (weak, nonatomic) IBOutlet UILabel *button3Label;
+@property (weak, nonatomic) IBOutlet UILabel *button4Label;
+
+- (IBAction)button1Tapped:(UIButton *)sender;
+- (IBAction)button2Tapped:(UIButton *)sender;
+- (IBAction)button3Tapped:(UIButton *)sender;
+- (IBAction)button4Tapped:(UIButton *)sender;
+- (IBAction)tweetTapped:(UIButton *)sender;
+
 @end

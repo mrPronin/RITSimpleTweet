@@ -21,6 +21,15 @@
 		A20A9A2F1960936000CACEEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A111960936000CACEEF /* UIKit.framework */; };
 		A20A9A371960936000CACEEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A351960936000CACEEF /* InfoPlist.strings */; };
 		A20A9A391960936000CACEEF /* RITSimpleTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A9A381960936000CACEEF /* RITSimpleTweetTests.m */; };
+		A20A9A4B1960944D00CACEEF /* CheatSheetButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A431960944D00CACEEF /* CheatSheetButton.png */; };
+		A20A9A4C1960944D00CACEEF /* CheatSheetButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A441960944D00CACEEF /* CheatSheetButton@2x.png */; };
+		A20A9A4D1960944D00CACEEF /* HorizontalTablesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A451960944D00CACEEF /* HorizontalTablesButton.png */; };
+		A20A9A4E1960944D00CACEEF /* HorizontalTablesButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A461960944D00CACEEF /* HorizontalTablesButton@2x.png */; };
+		A20A9A4F1960944D00CACEEF /* PathfindingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A471960944D00CACEEF /* PathfindingButton.png */; };
+		A20A9A501960944D00CACEEF /* PathfindingButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A481960944D00CACEEF /* PathfindingButton@2x.png */; };
+		A20A9A511960944D00CACEEF /* UIKitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A491960944D00CACEEF /* UIKitButton.png */; };
+		A20A9A521960944D00CACEEF /* UIKitButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A4A1960944D00CACEEF /* UIKitButton@2x.png */; };
+		A20A9A541960998F00CACEEF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A531960998F00CACEEF /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		A20A9A341960936000CACEEF /* RITSimpleTweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RITSimpleTweetTests-Info.plist"; sourceTree = "<group>"; };
 		A20A9A361960936000CACEEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A20A9A381960936000CACEEF /* RITSimpleTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITSimpleTweetTests.m; sourceTree = "<group>"; };
+		A20A9A431960944D00CACEEF /* CheatSheetButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheatSheetButton.png; path = RITSimpleTweet/Resources/CheatSheetButton.png; sourceTree = "<group>"; };
+		A20A9A441960944D00CACEEF /* CheatSheetButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CheatSheetButton@2x.png"; path = "RITSimpleTweet/Resources/CheatSheetButton@2x.png"; sourceTree = "<group>"; };
+		A20A9A451960944D00CACEEF /* HorizontalTablesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = HorizontalTablesButton.png; path = RITSimpleTweet/Resources/HorizontalTablesButton.png; sourceTree = "<group>"; };
+		A20A9A461960944D00CACEEF /* HorizontalTablesButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HorizontalTablesButton@2x.png"; path = "RITSimpleTweet/Resources/HorizontalTablesButton@2x.png"; sourceTree = "<group>"; };
+		A20A9A471960944D00CACEEF /* PathfindingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PathfindingButton.png; path = RITSimpleTweet/Resources/PathfindingButton.png; sourceTree = "<group>"; };
+		A20A9A481960944D00CACEEF /* PathfindingButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PathfindingButton@2x.png"; path = "RITSimpleTweet/Resources/PathfindingButton@2x.png"; sourceTree = "<group>"; };
+		A20A9A491960944D00CACEEF /* UIKitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIKitButton.png; path = RITSimpleTweet/Resources/UIKitButton.png; sourceTree = "<group>"; };
+		A20A9A4A1960944D00CACEEF /* UIKitButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UIKitButton@2x.png"; path = "RITSimpleTweet/Resources/UIKitButton@2x.png"; sourceTree = "<group>"; };
+		A20A9A531960998F00CACEEF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20A9A541960998F00CACEEF /* Social.framework in Frameworks */,
 				A20A9A101960936000CACEEF /* CoreGraphics.framework in Frameworks */,
 				A20A9A121960936000CACEEF /* UIKit.framework in Frameworks */,
 				A20A9A0E1960936000CACEEF /* Foundation.framework in Frameworks */,
@@ -82,7 +101,9 @@
 		A20A9A011960935F00CACEEF = {
 			isa = PBXGroup;
 			children = (
-				A20A9A131960936000CACEEF /* RITSimpleTweet */,
+				A20A9A131960936000CACEEF /* Classes */,
+				A20A9A421960942E00CACEEF /* Resources */,
+				A20A9A141960936000CACEEF /* Supporting Files */,
 				A20A9A321960936000CACEEF /* RITSimpleTweetTests */,
 				A20A9A0C1960936000CACEEF /* Frameworks */,
 				A20A9A0B1960936000CACEEF /* Products */,
@@ -101,6 +122,7 @@
 		A20A9A0C1960936000CACEEF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A20A9A531960998F00CACEEF /* Social.framework */,
 				A20A9A0D1960936000CACEEF /* Foundation.framework */,
 				A20A9A0F1960936000CACEEF /* CoreGraphics.framework */,
 				A20A9A111960936000CACEEF /* UIKit.framework */,
@@ -109,7 +131,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A20A9A131960936000CACEEF /* RITSimpleTweet */ = {
+		A20A9A131960936000CACEEF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				A20A9A1C1960936000CACEEF /* RITAppDelegate.h */,
@@ -118,8 +140,8 @@
 				A20A9A221960936000CACEEF /* RITViewController.h */,
 				A20A9A231960936000CACEEF /* RITViewController.m */,
 				A20A9A251960936000CACEEF /* Images.xcassets */,
-				A20A9A141960936000CACEEF /* Supporting Files */,
 			);
+			name = Classes;
 			path = RITSimpleTweet;
 			sourceTree = "<group>";
 		};
@@ -132,6 +154,7 @@
 				A20A9A1B1960936000CACEEF /* RITSimpleTweet-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = RITSimpleTweet;
 			sourceTree = "<group>";
 		};
 		A20A9A321960936000CACEEF /* RITSimpleTweetTests */ = {
@@ -150,6 +173,21 @@
 				A20A9A351960936000CACEEF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A20A9A421960942E00CACEEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A431960944D00CACEEF /* CheatSheetButton.png */,
+				A20A9A441960944D00CACEEF /* CheatSheetButton@2x.png */,
+				A20A9A451960944D00CACEEF /* HorizontalTablesButton.png */,
+				A20A9A461960944D00CACEEF /* HorizontalTablesButton@2x.png */,
+				A20A9A471960944D00CACEEF /* PathfindingButton.png */,
+				A20A9A481960944D00CACEEF /* PathfindingButton@2x.png */,
+				A20A9A491960944D00CACEEF /* UIKitButton.png */,
+				A20A9A4A1960944D00CACEEF /* UIKitButton@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +238,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Pronin Alexander";
 				TargetAttributes = {
+					A20A9A091960936000CACEEF = {
+						DevelopmentTeam = Q8M6V9HM9E;
+					};
 					A20A9A2A1960936000CACEEF = {
 						TestTargetID = A20A9A091960936000CACEEF;
 					};
@@ -229,9 +270,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20A9A511960944D00CACEEF /* UIKitButton.png in Resources */,
+				A20A9A4F1960944D00CACEEF /* PathfindingButton.png in Resources */,
 				A20A9A261960936000CACEEF /* Images.xcassets in Resources */,
+				A20A9A501960944D00CACEEF /* PathfindingButton@2x.png in Resources */,
+				A20A9A521960944D00CACEEF /* UIKitButton@2x.png in Resources */,
+				A20A9A4B1960944D00CACEEF /* CheatSheetButton.png in Resources */,
+				A20A9A4D1960944D00CACEEF /* HorizontalTablesButton.png in Resources */,
+				A20A9A4C1960944D00CACEEF /* CheatSheetButton@2x.png in Resources */,
 				A20A9A181960936000CACEEF /* InfoPlist.strings in Resources */,
 				A20A9A211960936000CACEEF /* Main.storyboard in Resources */,
+				A20A9A4E1960944D00CACEEF /* HorizontalTablesButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
 				INFOPLIST_FILE = "RITSimpleTweet/RITSimpleTweet-Info.plist";
@@ -390,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
 				INFOPLIST_FILE = "RITSimpleTweet/RITSimpleTweet-Info.plist";
