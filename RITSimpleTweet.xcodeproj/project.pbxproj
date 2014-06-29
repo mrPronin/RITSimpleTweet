@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20A9A0E1960936000CACEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A0D1960936000CACEEF /* Foundation.framework */; };
+		A20A9A101960936000CACEEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A0F1960936000CACEEF /* CoreGraphics.framework */; };
+		A20A9A121960936000CACEEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A111960936000CACEEF /* UIKit.framework */; };
+		A20A9A181960936000CACEEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A161960936000CACEEF /* InfoPlist.strings */; };
+		A20A9A1A1960936000CACEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A9A191960936000CACEEF /* main.m */; };
+		A20A9A1E1960936000CACEEF /* RITAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A9A1D1960936000CACEEF /* RITAppDelegate.m */; };
+		A20A9A211960936000CACEEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A1F1960936000CACEEF /* Main.storyboard */; };
+		A20A9A241960936000CACEEF /* RITViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A9A231960936000CACEEF /* RITViewController.m */; };
+		A20A9A261960936000CACEEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A251960936000CACEEF /* Images.xcassets */; };
+		A20A9A2D1960936000CACEEF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A2C1960936000CACEEF /* XCTest.framework */; };
+		A20A9A2E1960936000CACEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A0D1960936000CACEEF /* Foundation.framework */; };
+		A20A9A2F1960936000CACEEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20A9A111960936000CACEEF /* UIKit.framework */; };
+		A20A9A371960936000CACEEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20A9A351960936000CACEEF /* InfoPlist.strings */; };
+		A20A9A391960936000CACEEF /* RITSimpleTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A20A9A381960936000CACEEF /* RITSimpleTweetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20A9A301960936000CACEEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20A9A021960935F00CACEEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20A9A091960936000CACEEF;
+			remoteInfo = RITSimpleTweet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20A9A0A1960936000CACEEF /* RITSimpleTweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITSimpleTweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20A9A0D1960936000CACEEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A20A9A0F1960936000CACEEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A20A9A111960936000CACEEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A20A9A151960936000CACEEF /* RITSimpleTweet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RITSimpleTweet-Info.plist"; sourceTree = "<group>"; };
+		A20A9A171960936000CACEEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A20A9A191960936000CACEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A20A9A1B1960936000CACEEF /* RITSimpleTweet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RITSimpleTweet-Prefix.pch"; sourceTree = "<group>"; };
+		A20A9A1C1960936000CACEEF /* RITAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITAppDelegate.h; sourceTree = "<group>"; };
+		A20A9A1D1960936000CACEEF /* RITAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITAppDelegate.m; sourceTree = "<group>"; };
+		A20A9A201960936000CACEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A20A9A221960936000CACEEF /* RITViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RITViewController.h; sourceTree = "<group>"; };
+		A20A9A231960936000CACEEF /* RITViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITViewController.m; sourceTree = "<group>"; };
+		A20A9A251960936000CACEEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A20A9A2B1960936000CACEEF /* RITSimpleTweetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RITSimpleTweetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20A9A2C1960936000CACEEF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A20A9A341960936000CACEEF /* RITSimpleTweetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RITSimpleTweetTests-Info.plist"; sourceTree = "<group>"; };
+		A20A9A361960936000CACEEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A20A9A381960936000CACEEF /* RITSimpleTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RITSimpleTweetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20A9A071960936000CACEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A101960936000CACEEF /* CoreGraphics.framework in Frameworks */,
+				A20A9A121960936000CACEEF /* UIKit.framework in Frameworks */,
+				A20A9A0E1960936000CACEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20A9A281960936000CACEEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A2D1960936000CACEEF /* XCTest.framework in Frameworks */,
+				A20A9A2F1960936000CACEEF /* UIKit.framework in Frameworks */,
+				A20A9A2E1960936000CACEEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20A9A011960935F00CACEEF = {
+			isa = PBXGroup;
+			children = (
+				A20A9A131960936000CACEEF /* RITSimpleTweet */,
+				A20A9A321960936000CACEEF /* RITSimpleTweetTests */,
+				A20A9A0C1960936000CACEEF /* Frameworks */,
+				A20A9A0B1960936000CACEEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20A9A0B1960936000CACEEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A0A1960936000CACEEF /* RITSimpleTweet.app */,
+				A20A9A2B1960936000CACEEF /* RITSimpleTweetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20A9A0C1960936000CACEEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A0D1960936000CACEEF /* Foundation.framework */,
+				A20A9A0F1960936000CACEEF /* CoreGraphics.framework */,
+				A20A9A111960936000CACEEF /* UIKit.framework */,
+				A20A9A2C1960936000CACEEF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A20A9A131960936000CACEEF /* RITSimpleTweet */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A1C1960936000CACEEF /* RITAppDelegate.h */,
+				A20A9A1D1960936000CACEEF /* RITAppDelegate.m */,
+				A20A9A1F1960936000CACEEF /* Main.storyboard */,
+				A20A9A221960936000CACEEF /* RITViewController.h */,
+				A20A9A231960936000CACEEF /* RITViewController.m */,
+				A20A9A251960936000CACEEF /* Images.xcassets */,
+				A20A9A141960936000CACEEF /* Supporting Files */,
+			);
+			path = RITSimpleTweet;
+			sourceTree = "<group>";
+		};
+		A20A9A141960936000CACEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A151960936000CACEEF /* RITSimpleTweet-Info.plist */,
+				A20A9A161960936000CACEEF /* InfoPlist.strings */,
+				A20A9A191960936000CACEEF /* main.m */,
+				A20A9A1B1960936000CACEEF /* RITSimpleTweet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A20A9A321960936000CACEEF /* RITSimpleTweetTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A381960936000CACEEF /* RITSimpleTweetTests.m */,
+				A20A9A331960936000CACEEF /* Supporting Files */,
+			);
+			path = RITSimpleTweetTests;
+			sourceTree = "<group>";
+		};
+		A20A9A331960936000CACEEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20A9A341960936000CACEEF /* RITSimpleTweetTests-Info.plist */,
+				A20A9A351960936000CACEEF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20A9A091960936000CACEEF /* RITSimpleTweet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20A9A3C1960936000CACEEF /* Build configuration list for PBXNativeTarget "RITSimpleTweet" */;
+			buildPhases = (
+				A20A9A061960936000CACEEF /* Sources */,
+				A20A9A071960936000CACEEF /* Frameworks */,
+				A20A9A081960936000CACEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITSimpleTweet;
+			productName = RITSimpleTweet;
+			productReference = A20A9A0A1960936000CACEEF /* RITSimpleTweet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A20A9A2A1960936000CACEEF /* RITSimpleTweetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20A9A3F1960936000CACEEF /* Build configuration list for PBXNativeTarget "RITSimpleTweetTests" */;
+			buildPhases = (
+				A20A9A271960936000CACEEF /* Sources */,
+				A20A9A281960936000CACEEF /* Frameworks */,
+				A20A9A291960936000CACEEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20A9A311960936000CACEEF /* PBXTargetDependency */,
+			);
+			name = RITSimpleTweetTests;
+			productName = RITSimpleTweetTests;
+			productReference = A20A9A2B1960936000CACEEF /* RITSimpleTweetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20A9A021960935F00CACEEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RIT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pronin Alexander";
+				TargetAttributes = {
+					A20A9A2A1960936000CACEEF = {
+						TestTargetID = A20A9A091960936000CACEEF;
+					};
+				};
+			};
+			buildConfigurationList = A20A9A051960935F00CACEEF /* Build configuration list for PBXProject "RITSimpleTweet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20A9A011960935F00CACEEF;
+			productRefGroup = A20A9A0B1960936000CACEEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20A9A091960936000CACEEF /* RITSimpleTweet */,
+				A20A9A2A1960936000CACEEF /* RITSimpleTweetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20A9A081960936000CACEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A261960936000CACEEF /* Images.xcassets in Resources */,
+				A20A9A181960936000CACEEF /* InfoPlist.strings in Resources */,
+				A20A9A211960936000CACEEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20A9A291960936000CACEEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A371960936000CACEEF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20A9A061960936000CACEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A1E1960936000CACEEF /* RITAppDelegate.m in Sources */,
+				A20A9A1A1960936000CACEEF /* main.m in Sources */,
+				A20A9A241960936000CACEEF /* RITViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20A9A271960936000CACEEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20A9A391960936000CACEEF /* RITSimpleTweetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20A9A311960936000CACEEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20A9A091960936000CACEEF /* RITSimpleTweet */;
+			targetProxy = A20A9A301960936000CACEEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A20A9A161960936000CACEEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20A9A171960936000CACEEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A20A9A1F1960936000CACEEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20A9A201960936000CACEEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A20A9A351960936000CACEEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20A9A361960936000CACEEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20A9A3A1960936000CACEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A20A9A3B1960936000CACEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20A9A3D1960936000CACEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
+				INFOPLIST_FILE = "RITSimpleTweet/RITSimpleTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A20A9A3E1960936000CACEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
+				INFOPLIST_FILE = "RITSimpleTweet/RITSimpleTweet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A20A9A401960936000CACEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RITSimpleTweet.app/RITSimpleTweet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RITSimpleTweetTests/RITSimpleTweetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A20A9A411960936000CACEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RITSimpleTweet.app/RITSimpleTweet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RITSimpleTweet/RITSimpleTweet-Prefix.pch";
+				INFOPLIST_FILE = "RITSimpleTweetTests/RITSimpleTweetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20A9A051960935F00CACEEF /* Build configuration list for PBXProject "RITSimpleTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20A9A3A1960936000CACEEF /* Debug */,
+				A20A9A3B1960936000CACEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20A9A3C1960936000CACEEF /* Build configuration list for PBXNativeTarget "RITSimpleTweet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20A9A3D1960936000CACEEF /* Debug */,
+				A20A9A3E1960936000CACEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A20A9A3F1960936000CACEEF /* Build configuration list for PBXNativeTarget "RITSimpleTweetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20A9A401960936000CACEEF /* Debug */,
+				A20A9A411960936000CACEEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20A9A021960935F00CACEEF /* Project object */;
+}
