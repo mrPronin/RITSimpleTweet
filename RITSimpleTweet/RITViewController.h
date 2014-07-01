@@ -21,4 +21,5 @@
 - (IBAction)button4Tapped:(UIButton *)sender;
 - (IBAction)tweetTapped:(UIButton *)sender;
 
+- (IBAction)actionActivityViewControllerButton:(UIButton *)sender;
 @end

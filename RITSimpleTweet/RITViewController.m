@@ -32,6 +32,27 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Methods
+
+- (void)shareText:(NSString *)text andImage:(UIImage *)image andUrl:(NSURL *)url
+{
+    NSMutableArray *sharingItems = [NSMutableArray new];
+    
+    if (text) {
+        [sharingItems addObject:text];
+    }
+    if (image) {
+        [sharingItems addObject:image];
+    }
+    if (url) {
+        [sharingItems addObject:url];
+    }
+    
+    UIActivityViewController *activityController = [[UIActivityViewController alloc] initWithActivityItems:sharingItems applicationActivities:nil];
+    //activityController.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypePrint];
+    [self presentViewController:activityController animated:YES completion:nil];
+}
+
 - (void) clearLabels
 {
 
@@ -41,6 +62,8 @@
     self.button4Label.textColor = [UIColor whiteColor];
     
 }
+
+#pragma mark - Actions
 
 - (IBAction)button1Tapped:(UIButton *)sender {
     
@@ -112,4 +135,11 @@
     }
     
 }
+
+- (IBAction)actionActivityViewControllerButton:(UIButton *)sender {
+    
+    [self shareText:@"Test share text" andImage:[UIImage imageNamed:self.imageString] andUrl:[NSURL URLWithString:self.urlString]];
+    
+}
+
 @end
